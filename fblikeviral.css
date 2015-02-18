@@ -1,0 +1,106 @@
+.vr_bg {
+	overflow:hidden;
+	background:#000;
+	width:100%;
+	min-height:2000px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity:0.5;
+	z-index:9999;
+	position:fixed;
+	display: none;
+}
+
+.vr_popup {
+	width:600px;
+	background-color:#fff;
+	border:2px solid #ccc;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	padding:15px;
+	overflow:hidden;
+	position: fixed;
+  z-index:9999;
+  display: none;
+}
+
+.vr_actions {
+  width: 300px;
+}
+
+.vr_action {
+	display:inline;
+	float:left;
+	margin-right:15px;
+  width: 72px;
+}
+
+.vr_largeBtn {
+  height: 68px;
+}
+
+.vr_smallBtn {
+  height: 40px;
+}
+
+.vr_action_web {
+	display:inline;
+	margin-right:15px;
+	float:left;
+}
+
+.vr_msg {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.vr_msg .vr_close {
+	overflow:hidden;
+	margin-top:12px;
+}
+
+.vr_msg .vr_close a {
+	color:#333;
+	text-decoration:none;
+	display:block;
+	line-height:20px;
+	padding:0 8px;
+	font-size:10px;
+	text-transform:uppercase;
+	border:1px solid #999;
+	border-radius:3px;
+	background:#ccc;
+	width: 72px;
+}
+
+.vr_powered {
+  float: right;
+  font-size: 10px;
+  margin-top: 33px;
+}
+
+.vr_powered a, .vr_powered a:hover, .vr_powered a:active, .vr_powered a:visited {
+  color: #000;
+}
+
+.vr_x_close {
+  float: right;
+  font-family: Arial;
+  font-size: 10px;
+  margin-top: -10px;
+  font-weight: bolder;
+}
+
+.vr_x_close a {
+  text-decoration:none;
+}
+
+.vr_countdown {
+  margin-top: 10px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 20px;
+}
